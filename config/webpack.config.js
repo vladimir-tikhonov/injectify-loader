@@ -16,7 +16,7 @@ module.exports = createConfig.vanilla([
     setOutput({
         path: TEMP_PATH,
         filename: 'index.js',
-        libraryTarget: 'commonjs',
+        libraryTarget: 'commonjs-module',
     }),
     baseConfig(),
     excludeNodeDepsFromCompilation(),

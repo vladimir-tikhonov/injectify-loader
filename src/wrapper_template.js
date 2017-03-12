@@ -8,7 +8,7 @@ export default template(`
             var validDependencies = DEPENDENCIES;
             var injectedDependencies = Object.keys(__injections);
             var invalidInjectedDependencies = injectedDependencies.filter(function (dependency) {
-                return !validDependencies.includes(dependency);
+                return validDependencies.indexOf(dependency) === -1;
             });
 
             if (invalidInjectedDependencies.length > 0) {
