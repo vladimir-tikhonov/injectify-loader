@@ -4,6 +4,5 @@ node_js: 7
 cache: yarn
 
 script:
-  - make setup
   - make lint
   - make test
