@@ -1,6 +1,7 @@
 # injectify-loader
 
-Build status: [![Build Status](https://travis-ci.org/vladimir-tikhonov/injectify-loader.svg?branch=master)](https://travis-ci.org/vladimir-tikhonov/injectify-loader)
+[![Build Status](https://travis-ci.org/vladimir-tikhonov/injectify-loader.svg?branch=master)](https://travis-ci.org/vladimir-tikhonov/injectify-loader)
+[![npm version](https://img.shields.io/npm/v/injectify-loader.svg?style=flat-square)](https://www.npmjs.com/package/injectify-loader) [![npm downloads](https://img.shields.io/npm/dm/injectify-loader.svg?style=flat-square)](https://www.npmjs.com/package/injectify-loader)
 
 A rewrite of [inject-loader](https://github.com/plasticine/inject-loader) which is using `babel` parser under the hood. It has the following advantages:
 - more reliable parsing ([inject-loader#32](https://github.com/plasticine/inject-loader/issues/32))
