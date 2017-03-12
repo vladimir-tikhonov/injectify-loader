@@ -10,3 +10,6 @@ test:
 	npm run build
 	npm run build-test
 	npm run test
+
+release:
+	cp -f ./tmp/index.js ./dist/index.js

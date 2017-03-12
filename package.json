@@ -5,6 +5,10 @@
   "repository": "https://github.com/vladimir-tikhonov/injectify-loader",
   "author": "Vladimir Tikhonov <vladimir@tikhonov.by>",
   "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "webpack --config config/webpack.config.js",
     "build-test": "webpack --config config/webpack.test.config.js",
@@ -23,10 +27,20 @@
     "webpack": "^2.2.1"
   },
   "dependencies": {
-    "babel-generator": "^6.23.0",
-    "babel-template": "^6.23.0",
-    "babel-traverse": "^6.23.1",
-    "babel-types": "^6.23.0",
-    "babylon": "^6.16.1"
-  }
+    "babel-generator": "~6",
+    "babel-template": "~6",
+    "babel-traverse": "~6",
+    "babel-types": "~6",
+    "babylon": "~6"
+  },
+  "keywords": [
+    "webpack",
+    "testing",
+    "loader",
+    "webpack-loader",
+    "inject",
+    "injectify",
+    "mock",
+    "mocking"
+  ]
 }
