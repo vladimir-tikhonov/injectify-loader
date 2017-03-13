@@ -5,7 +5,7 @@
 
 A rewrite of [inject-loader](https://github.com/plasticine/inject-loader) which is using `babel` parser under the hood. It has the following advantages:
 - more reliable parsing ([inject-loader#32](https://github.com/plasticine/inject-loader/issues/32))
-- sourcemap support
+- better performance
 
 API and behaviour are fully compatible with original inject-loader. Here is the copy of it's readme, all thanks go to [@plasticine](https://github.com/plasticine).
 
