@@ -156,7 +156,7 @@ function injectify(context, source) {
         return t.stringLiteral(dependency);
     }));
     var wrappedSourceAst = (0, _wrapper_template2.default)({ SOURCE: ast, DEPENDENCIES: dependenciesArrayAst });
-    return (0, _babelGenerator2.default)(wrappedSourceAst, null, source);
+    return (0, _babelGenerator2.default)(wrappedSourceAst, {}, source);
 }
 
 /***/ }),

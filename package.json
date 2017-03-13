@@ -1,6 +1,6 @@
 {
   "name": "injectify-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Webpack loader which allow to easily stub module's extenal dependencies",
   "repository": "https://github.com/vladimir-tikhonov/injectify-loader",
   "author": "Vladimir Tikhonov <vladimir@tikhonov.by>",

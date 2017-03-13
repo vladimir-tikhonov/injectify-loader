@@ -37,5 +37,5 @@ export default function injectify(context, source) {
         dependencies.map(dependency => t.stringLiteral(dependency))
     );
     const wrappedSourceAst = wrapperTemplate({ SOURCE: ast, DEPENDENCIES: dependenciesArrayAst });
-    return generate(wrappedSourceAst, null, source);
+    return generate(wrappedSourceAst, {}, source);
 }
